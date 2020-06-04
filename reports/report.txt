@@ -1,0 +1,5 @@
+                 Model   Jaccard  F1-score   LogLoss
+0                  KNN  0.740741  0.714431       NaN
+1        DECISION TREE  0.759259  0.761886       NaN
+2                  SVM  0.759259  0.695923       NaN
+3  LOGISTIC REGRESSION  0.777778  0.708937  0.473958

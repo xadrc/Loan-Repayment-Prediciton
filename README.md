@@ -1,3 +1,5 @@
+# LOAN REPAYMENT PREDICION
+
 ### AIMS
 
 Find the best classification model to predict wether a loan will be paid off or defaulted
@@ -7,7 +9,7 @@ Find the best classification model to predict wether a loan will be paid off or 
 Details of 346 persons whose loan are already paid off or defaulted. It includes following fields
 
 | FIELD          | DESCRIPTION                                                                           |
-|----------------|---------------------------------------------------------------------------------------|
+|:---------------|:--------------------------------------------------------------------------------------|
 | Loan_status    | Whether a loan is paid off on in collection                                           |
 | Principal      | Basic principal loan amount at the                                                    |
 | Terms          | Origination terms which can be weekly (7 days), biweekly, and monthly payoff schedule |
@@ -29,7 +31,7 @@ Details of 346 persons whose loan are already paid off or defaulted. It includes
 ### RESULTS
 
 | Algorithm          |  Jaccard | F1-score |  LogLoss |
-|--------------------|:--------:|:--------:|:--------:|
+|:-------------------|:--------:|:--------:|:--------:|
 | KNN                | 0.740741 | 0.714431 |    NA    |
 | Decision Tree      | 0.759259 | 0.761886 |    NA    |
 | SVM                | 0.759259 | 0.695923 |    NA    |
